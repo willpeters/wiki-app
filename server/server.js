@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const articles = require('./data/articles.json');
 
 const app = express();
@@ -66,6 +67,14 @@ app.get('/api/categories/:category', (req, res) => {
     }));
   res.json(results);
 });
+
+// Serve React build in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../client/build')));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`Wiki server running on http://localhost:${PORT}`);
