@@ -1,0 +1,48 @@
+.search-page {}
+
+.search-header {
+  background: #fff;
+  border: 1px solid #a2a9b1;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.search-title {
+  font-size: 1.5rem;
+  font-family: 'Linux Libertine', Georgia, serif;
+  font-weight: normal;
+  color: #202122;
+  margin-bottom: 4px;
+}
+
+.search-count {
+  color: #54595d;
+  font-size: 0.9rem;
+}
+
+.results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 1px solid #a2a9b1;
+}
+
+.no-results {
+  background: #fff;
+  border: 1px solid #a2a9b1;
+  padding: 24px;
+  color: #54595d;
+}
+
+.no-results p {
+  margin-bottom: 8px;
+}
+
+.no-results ul {
+  padding-left: 20px;
+  margin-top: 4px;
+}
+
+.no-results ul li {
+  padding: 2px 0;
+}

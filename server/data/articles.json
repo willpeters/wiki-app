@@ -1,0 +1,158 @@
+[
+  {
+    "id": "javascript",
+    "title": "JavaScript",
+    "summary": "JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png",
+    "categories": ["Programming Languages", "Web Technologies", "Computing"],
+    "lastEdited": "2024-01-15",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM)."
+      },
+      {
+        "title": "History",
+        "content": "JavaScript was created in 1995 by Brendan Eich while working at Netscape Communications. It was originally named Mocha, then briefly renamed to LiveScript, and finally renamed to JavaScript. The name change was part of a marketing collaboration with Sun Microsystems, even though JavaScript has very little in common with Java. In December 1995, Sun Microsystems and Netscape announced JavaScript in a press release."
+      },
+      {
+        "title": "Features",
+        "content": "JavaScript supports object-oriented programming with object prototypes and classes (as of ES2015). JavaScript functions are first-class; a function is an object and can have properties and methods like any other object. JavaScript supports anonymous functions. JavaScript supports closures, enabling powerful patterns like the module pattern. JavaScript is single-threaded but supports asynchronous operations through callbacks, promises, and async/await."
+      },
+      {
+        "title": "Usage",
+        "content": "Initially only implemented client-side in web browsers, JavaScript engines are now core components of servers and various applications. The most popular runtime system for JavaScript outside the browser is Node.js. JavaScript is used in many frameworks like React, Angular, and Vue.js for building web applications."
+      }
+    ]
+  },
+  {
+    "id": "world-wide-web",
+    "title": "World Wide Web",
+    "summary": "The World Wide Web (WWW or simply the Web) is an information system that enables content sharing over the Internet through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/200px-WWW_logo_by_Robert_Cailliau.svg.png",
+    "categories": ["Internet", "Computing", "Technology"],
+    "lastEdited": "2024-01-10",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server."
+      },
+      {
+        "title": "History",
+        "content": "English scientist Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. On 30 April 1993, CERN put the World Wide Web software in the public domain. Berners-Lee and CERN web project team established the World Wide Web Consortium (W3C) in October 1994 to help standardize protocols and encourage web adoption."
+      },
+      {
+        "title": "How It Works",
+        "content": "The Web works through a client-server model. A web browser acts as a client and requests web pages from web servers using HTTP. The browser then renders the HTML, CSS, and JavaScript to display the web page. Hyperlinks allow users to navigate between pages. URLs (Uniform Resource Locators) provide a standardized addressing system for every resource on the web."
+      },
+      {
+        "title": "Impact",
+        "content": "The World Wide Web has fundamentally changed how people communicate, access information, conduct business, and entertain themselves. It has democratized information access, enabling anyone with an internet connection to access a vast library of knowledge. E-commerce, social media, online education, and remote work are just a few areas transformed by the web."
+      }
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "summary": "Artificial intelligence (AI) is the simulation of human intelligence processes by computer systems. Specific applications of AI include expert systems, natural language processing (NLP), speech recognition and machine vision.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg/200px-Artificial_intelligence_prompt_completion_by_dalle_mini.jpg",
+    "categories": ["Computing", "Technology", "Science"],
+    "lastEdited": "2024-01-20",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. AI is a broad field of study that includes many theories, methods, and technologies."
+      },
+      {
+        "title": "History",
+        "content": "The history of artificial intelligence began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen. The seeds of modern AI were planted by classical philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols. This work culminated in the invention of the programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical reasoning."
+      },
+      {
+        "title": "Machine Learning",
+        "content": "Machine learning (ML) is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy. Machine learning is an important component of the growing field of data science. Through the use of statistical methods, algorithms are trained to make classifications or predictions, and to uncover key insights in data mining projects."
+      },
+      {
+        "title": "Applications",
+        "content": "AI is being used across many industries. In healthcare, AI assists with diagnosis and drug discovery. In finance, it powers fraud detection and algorithmic trading. In transportation, it enables autonomous vehicles. In entertainment, it powers recommendation systems. Natural language processing allows AI to understand and generate human language, enabling chatbots, translation services, and voice assistants."
+      }
+    ]
+  },
+  {
+    "id": "react",
+    "title": "React (JavaScript library)",
+    "summary": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png",
+    "categories": ["JavaScript Libraries", "Web Technologies", "Programming"],
+    "lastEdited": "2024-01-18",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called components. React has a component-based architecture which promotes code reusability and separation of concerns. React uses a virtual DOM to efficiently update the actual DOM, making UI updates fast and performant."
+      },
+      {
+        "title": "History",
+        "content": "React was created by Jordan Walke, a software engineer at Facebook. He was influenced by XHP, an HTML component library for PHP. It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012. It was open-sourced at JSConf US in May 2013. React Native, which enables native Android, iOS, and UWP development with React, was announced at Facebook's React Conf in February 2015."
+      },
+      {
+        "title": "Key Concepts",
+        "content": "React's core concepts include components (reusable UI building blocks), JSX (a syntax extension that allows mixing HTML with JavaScript), state (data managed within a component), props (data passed from parent to child components), and hooks (functions that let you use state and other React features in functional components). The virtual DOM is React's mechanism for efficiently updating the UI."
+      },
+      {
+        "title": "Ecosystem",
+        "content": "React has a rich ecosystem of libraries and tools. React Router provides client-side routing. Redux and Zustand provide global state management. Next.js and Gatsby are frameworks built on top of React. React Query and SWR handle data fetching. Material-UI, Chakra UI, and Tailwind CSS provide styling solutions."
+      }
+    ]
+  },
+  {
+    "id": "internet",
+    "title": "Internet",
+    "summary": "The Internet (or internet) is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/200px-Internet_map_1024.jpg",
+    "categories": ["Internet", "Networking", "Technology"],
+    "lastEdited": "2024-01-05",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "The Internet is a global network of computers and electronic devices that are all connected and can communicate with each other. This communication is made possible through a set of standardized protocols, primarily TCP/IP. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing."
+      },
+      {
+        "title": "History",
+        "content": "The origins of the Internet date back to the development of packet switching and research commissioned by the United States Department of Defense in the 1960s to enable time-sharing of computers. The primary precursor network, ARPANET, initially served as a backbone for interconnection of regional academic and military networks in the 1970s. The funding of the National Science Foundation Network as a new backbone in the 1980s, as well as private funding for other commercial extensions, led to worldwide participation in the development of new networking technologies."
+      },
+      {
+        "title": "Protocols",
+        "content": "The Internet's communications infrastructure consists of hardware components and a system of software layers that control various aspects of the architecture. The Internet protocol suite (TCP/IP) is the set of communication protocols used in the Internet and similar computer networks. The current foundational protocols in the suite are the Transmission Control Protocol (TCP) and the Internet Protocol (IP), as well as the User Datagram Protocol (UDP)."
+      },
+      {
+        "title": "Services",
+        "content": "The Internet carries many applications and services, most prominently the World Wide Web, including social media, electronic mail, mobile applications, multiplayer online games, internet telephony, file sharing, and streaming media services. Many devices use the Internet, including personal computers, mobile phones and tablets, and video game consoles. More recently, smart home and Internet of Things (IoT) devices have joined the connected world."
+      }
+    ]
+  },
+  {
+    "id": "python",
+    "title": "Python (programming language)",
+    "summary": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability, with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented, and functional programming.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png",
+    "categories": ["Programming Languages", "Computing"],
+    "lastEdited": "2024-01-12",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": "Python is a versatile, beginner-friendly programming language known for its clear syntax and readability. It supports multiple programming paradigms including procedural, object-oriented, and functional programming. Python's extensive standard library and large ecosystem of third-party packages make it suitable for a wide range of applications, from web development to data science and artificial intelligence."
+      },
+      {
+        "title": "History",
+        "content": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was itself inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum was the principal author of Python and held a central role in deciding the direction of Python until stepping down as 'benevolent dictator for life' in July 2018."
+      },
+      {
+        "title": "Key Features",
+        "content": "Python features a dynamic type system and automatic memory management and supports multiple programming paradigms, including object-oriented, imperative, functional, and procedural. Python has a comprehensive standard library. Python interpreters support many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model."
+      },
+      {
+        "title": "Applications",
+        "content": "Python is used in web and internet development (Django, Flask frameworks), scientific and numeric computing (NumPy, SciPy), desktop GUIs, software development, business applications, and education. It is widely used in machine learning and AI (TensorFlow, PyTorch, scikit-learn). Python has become the de facto standard language for data science and machine learning."
+      }
+    ]
+  }
+]

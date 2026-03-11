@@ -1,0 +1,110 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Linux Libertine', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #202122;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0645ad;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  font-size: 1.1rem;
+  color: #54595d;
+}
+
+.text-muted {
+  color: #54595d;
+  font-size: 0.85rem;
+}
+
+/* Sidebar shared styles */
+.sidebar-box {
+  border: 1px solid #a2a9b1;
+  background: #fff;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.sidebar-title {
+  background: #eaecf0;
+  border-bottom: 1px solid #a2a9b1;
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #202122;
+}
+
+.sidebar-box ul {
+  list-style: none;
+  padding: 8px 10px;
+}
+
+.sidebar-box ul li {
+  padding: 3px 0;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.sidebar-box ul li:last-child {
+  border-bottom: none;
+}
+
+.category-link {
+  color: #3366cc;
+  font-size: 0.88rem;
+}
+
+.tool-link {
+  color: #3366cc;
+  font-size: 0.88rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  text-align: left;
+}
+
+.tool-link:hover {
+  text-decoration: underline;
+}
+
+.category-tag {
+  display: inline-block;
+  background: #eaecf0;
+  color: #3366cc;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 0.78rem;
+  margin: 2px 2px 0 0;
+}
+
+.category-tag:hover {
+  background: #c8ccd1;
+  text-decoration: none;
+}

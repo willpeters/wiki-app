@@ -1,0 +1,128 @@
+.home-page {}
+
+.welcome-banner {
+  background: linear-gradient(135deg, #3366cc 0%, #0645ad 100%);
+  color: white;
+  padding: 32px 24px;
+  margin-bottom: 24px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.welcome-title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-family: 'Linux Libertine', Georgia, serif;
+}
+
+.welcome-subtitle {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-heading {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+  font-family: 'Linux Libertine', Georgia, serif;
+  color: #202122;
+}
+
+.section-heading-icon {
+  margin-right: 8px;
+  color: #f0a500;
+}
+
+/* Featured Article */
+.featured-article {
+  background: #fff;
+  border: 1px solid #a2a9b1;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.featured-body {
+  display: flex;
+  gap: 16px;
+}
+
+.featured-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 1px solid #eaecf0;
+  flex-shrink: 0;
+  padding: 4px;
+  background: #f8f9fa;
+}
+
+.featured-title {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.featured-title a {
+  color: #0645ad;
+}
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #3366cc;
+  font-size: 0.9rem;
+}
+
+/* Articles Grid */
+.articles-section {
+  margin-bottom: 20px;
+}
+
+.articles-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 1px solid #a2a9b1;
+}
+
+/* Sidebar */
+.home-sidebar {}
+
+.category-list, .recent-list, .did-you-know {
+  list-style: none;
+  padding: 8px 10px;
+}
+
+.category-list li, .recent-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid #eaecf0;
+  font-size: 0.88rem;
+}
+
+.did-you-know {
+  list-style: disc;
+  padding-left: 26px;
+}
+
+.did-you-know li {
+  padding: 3px 0;
+  font-size: 0.88rem;
+  color: #202122;
+}
+
+.category-list li:last-child, .recent-list li:last-child {
+  border-bottom: none;
+}
